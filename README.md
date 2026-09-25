@@ -74,6 +74,7 @@ DAX Measures
 Dashboard & Interactive Analysis
    ↓
 Insights & Recommendations
+```
 
 ### SQL Analysis
 
