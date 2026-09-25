@@ -1,0 +1,21 @@
+product_id,product_name,category,price
+P001,Laptop Pro 15,Electronics,1200.0
+P002,Wireless Headphones,Electronics,150.0
+P003,Smartphone X12,Electronics,899.0
+P004,USB-C Hub,Electronics,45.0
+P005,Mechanical Keyboard,Electronics,120.0
+P006,Running Shoes,Footwear,95.0
+P007,Leather Boots,Footwear,180.0
+P008,Casual Sneakers,Footwear,75.0
+P009,Men's Formal Shirt,Clothing,55.0
+P010,Women's Dress,Clothing,85.0
+P011,Denim Jacket,Clothing,110.0
+P012,Yoga Mat,Sports,40.0
+P013,Dumbbells Set,Sports,90.0
+P014,Protein Powder,Sports,60.0
+P015,Face Moisturizer,Beauty,35.0
+P016,Perfume Collection,Beauty,120.0
+P017,Hair Dryer,Beauty,65.0
+P018,Coffee Maker,Home & Kitchen,89.0
+P019,Air Fryer,Home & Kitchen,130.0
+P020,Bed Sheet Set,Home & Kitchen,55.0
