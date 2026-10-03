@@ -18,6 +18,14 @@ The analysis goes beyond descriptive reporting to investigate what is happening,
 
 ---
 
+## Detailed Analytical Case Study
+
+For a deeper look at the analytical process, findings, business interpretation, and recommendations:
+
+**[Read the full Retail Pulse Case Study](Documentation/Retail_Pulse_Case_Study_Final.pdf)**
+
+---
+
 ## Business Objective
 
 Identify key drivers of revenue performance and uncover opportunities to:
@@ -268,6 +276,9 @@ Retail-Pulse/
 │   ├── orders.csv
 │   ├── products.csv
 │   └── regions.csv
+│
+├── Documentation/
+│   └── Retail_Pulse_Case_Study_Final.pdf
 │
 ├── Power_BI/
 │   └── RetailPulse.pbix
