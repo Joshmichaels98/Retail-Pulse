@@ -1,6 +1,6 @@
 # Retail Pulse
 
-### End-to-end retail analytics using PostgreSQL, SQL, Power BI, DAX, and Figma
+### End to end retail analytics using PostgreSQL, SQL, Power BI, DAX, and Figma
 
 [![View Interactive Dashboard](https://img.shields.io/badge/Power%20BI-View%20Interactive%20Dashboard-yellow?logo=powerbi)](https://app.powerbi.com/view?r=eyJrIjoiMGYyMjRjM2QtNThhMS00OTcwLTk3NDgtMWUzMmJlNjdkMzg3IiwidCI6ImExMTg4NmRiLWEzMzItNDMxOS1hNmFhLWFiMzZmODMwNjEyZCJ9)
 
@@ -10,7 +10,7 @@
 
 ## Project Overview
 
-**Retail Pulse** is an end-to-end retail analytics project designed to evaluate sales performance, customer behavior, product contribution, and purchasing-funnel efficiency across a synthetic retail dataset covering **2023–2024**.
+**Retail Pulse** is an end to end retail analytics project designed to evaluate sales performance, customer behavior, product contribution, and purchasing funnel efficiency across a synthetic retail dataset covering **2023–2024**.
 
 The project combines **PostgreSQL, SQL, Power BI, DAX, and Figma** to move from raw data to business insights and actionable recommendations.
 
@@ -89,7 +89,7 @@ Insights & Recommendations
 PostgreSQL was used to perform:
 
 - Revenue and order analysis
-- Time-series analysis
+- Time series analysis
 - Customer segmentation
 - RFM analysis
 - Cohort and retention analysis
@@ -103,7 +103,7 @@ Power BI was used for:
 
 - Interactive dashboard development
 - KPI and metric development using DAX
-- Time-based analysis
+- Time based analysis
 - Customer and product analysis
 - Interactive filtering and exploration
 - Data storytelling and visualization
@@ -116,7 +116,7 @@ The Retail Pulse dashboard consists of five analytical pages.
 
 ## 1. Executive Summary
 
-Provides a high-level view of business performance, including revenue, orders, average order value, geographic contribution, and customer concentration.
+Provides a high level view of business performance, including revenue, orders, average order value, geographic contribution, and customer concentration.
 
 Key headline metrics include:
 
@@ -131,7 +131,7 @@ Key headline metrics include:
 
 ## 2. Sales Performance
 
-Examines revenue trends and sales stability across 2023–2024 using monthly time-series analysis.
+Examines revenue trends and sales stability across 2023–2024 using monthly time series analysis.
 
 The analysis highlights revenue growth, seasonal patterns, changes in monthly volatility, and periods requiring further investigation.
 
@@ -143,7 +143,7 @@ The analysis highlights revenue growth, seasonal patterns, changes in monthly vo
 
 Uses **RFM segmentation and cohort analysis** to understand customer value, behavior, and retention.
 
-The analysis identifies differences in customer value across segments and highlights an early drop-off between first and second purchases.
+The analysis identifies differences in customer value across segments and highlights an early drop off between first and second purchases.
 
 ![Customer Intelligence](Dashboard/03_Customer_Intelligence.png)
 
@@ -153,7 +153,7 @@ The analysis identifies differences in customer value across segments and highli
 
 Evaluates product and category contribution, sales volume, revenue concentration, and seasonal pricing patterns.
 
-**Electronics** is the dominant revenue category, while seasonal periods show higher prices occurring alongside stronger purchasing activity. This suggests that seasonal demand may support higher price points, although further price-elasticity analysis would be required to establish causality.
+**Electronics** is the dominant revenue category, while seasonal periods show higher prices occurring alongside stronger purchasing activity. This suggests that seasonal demand may support higher price points, although further price elasticity analysis would be required to establish causality.
 
 ![Product Intelligence](Dashboard/04_Product_Intelligence.png)
 
@@ -189,7 +189,7 @@ Key seasonal periods showed increases in revenue, orders, quantity, and AOV alon
 
 ### Customer Value Concentration
 
-A relatively small group of high-value customers contributes disproportionately to revenue. Champions represented **9.15% of active customers** while generating approximately **$288K** in revenue.
+A relatively small group of high value customers contributes disproportionately to revenue. Champions represented **9.15% of active customers** while generating approximately **$288K** in revenue.
 
 ### Customer Retention
 
@@ -205,19 +205,19 @@ Cohort analysis indicates a noticeable reduction in customer activity after the 
 
 Based on the analysis, the following areas warrant further business attention:
 
-- Protect and develop high-value customer segments through targeted retention and loyalty initiatives.
-- Develop strategies to move Potential Loyal customers toward higher-value segments.
-- Investigate early post-purchase engagement to improve second-purchase conversion.
+- Protect and develop high value customer segments through targeted retention and loyalty initiatives.
+- Develop strategies to move Potential Loyal customers toward higher value segments.
+- Investigate early post purchase engagement to improve second purchase conversion.
 - Evaluate seasonal pricing opportunities while monitoring volume, revenue, and margin impact.
 - Investigate checkout friction and cart abandonment drivers.
-- Monitor revenue concentration within Electronics and high-value products to manage category dependency.
-- Conduct controlled price-elasticity testing before making permanent pricing changes.
+- Monitor revenue concentration within Electronics and high value products to manage category dependency.
+- Conduct controlled price elasticity testing before making permanent pricing changes.
 
 ---
 
 # Technical Highlights
 
-### Time-Series Analysis with `LAG()`
+### Time Series Analysis with `LAG()`
 
 Previous-period values were calculated using SQL window functions:
 
@@ -321,4 +321,4 @@ Explore the full interactive Power BI dashboard:
 
 ## About the Project
 
-Retail Pulse was developed as a portfolio project to demonstrate an end-to-end analytics workflow — from raw datasets and SQL analysis to interactive dashboard development, business interpretation, and data-driven recommendations.
+Retail Pulse was developed as a portfolio project to demonstrate an end to end analytics workflow, from raw datasets and SQL analysis to interactive dashboard development, business interpretation, and data driven recommendations.
