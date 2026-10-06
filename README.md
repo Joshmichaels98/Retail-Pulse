@@ -33,7 +33,7 @@ Identify key drivers of revenue performance and uncover opportunities to:
 - Increase customer value
 - Improve customer retention
 - Optimize product and pricing strategies
-- Reduce purchasing-funnel leakage
+- Reduce purchasing funnel leakage
 - Improve overall commercial efficiency
 
 ---
